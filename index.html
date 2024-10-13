@@ -91,7 +91,7 @@
         <section>
             <div
                 class="bg-[url('./images/banner_1.png')] bg-cover bg-no-repeat h-[80vh] flex items-center justify-center rounded-lg">
-                <div class="text-center  w-1/2 mx-auto h-full my-auto ">
+                <div class="text-center   md:w-1/2 mx-auto h-full mt-80  space-y-3">
                     <h1 class="text-5xl font-abold text-white">Taste Our Delicious Best Foods</h1>
                     <p class="text-lg font-semibold text-white">
 
@@ -100,8 +100,8 @@
                         Search any food
                     </p>
                     <div>
-                        <input type="text" class="p-2 rounded-lg border-none outline-none text-xl w-3/5">
-                        <button class="btn btn-warning btn-lx">Search</button>
+                        <input type="text" placeholder="Looking Food" class="p-2 rounded-lg border-none outline-none text-xl w-3/5">
+                        <button class="btn btn-warning btn-lx " >Search</button>
                     </div>
                 </div>
             </div>
@@ -112,15 +112,19 @@
         <!-- card section start -->
         <section>
             <div>
-                <h1>Your Favourite Food</h1>
+                <h1 class="text-center font-bold text-3xl my-10">Your Favourite Food</h1>
             </div>
-            <div id="card-conteiner">
+            <div id="food-conteiner" class="grid grid-cols-1  md:grid-cols-2 gap-6">
+                
 
             </div>
         </section>
         <!-- card section end -->
     </main>
     <!-- main section end  -->
+
+
+    <script src="./js/card.js"></script>
 
 </body>
 
